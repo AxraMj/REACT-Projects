@@ -1,0 +1,38 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 20px; /* Added margin-top for spacing */
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    max-height: 250px;
+    margin-right: 10px;
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+.poster:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.small_poster{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.small_poster:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+
