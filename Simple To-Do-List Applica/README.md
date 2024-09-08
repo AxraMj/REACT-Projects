@@ -11,7 +11,7 @@ A simple and interactive ToDo List application built with React.
 ## Technologies Used
 
 - React
-- CSS
+- CSs
 
 
 
